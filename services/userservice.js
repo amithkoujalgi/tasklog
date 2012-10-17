@@ -77,7 +77,7 @@ var User = {
 					console.log(err)
 					handler("error", null)
 				} else {
-					db.collection('users').insert(data, function(e, r) {
+					db.collection('users').insert(data, {safe:false} , function(e, r) {
 						if (r) {
 							handler("added", null)
 						} else {
