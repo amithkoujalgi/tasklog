@@ -6,7 +6,7 @@ var http = config.nodeModules().http;
 
 var app = express();
 http.createServer(app).listen(config.appConfig().port);
-//http.createServer(app).listen(process.env.PORT || 5000);
+http.createServer(app).listen(process.env.PORT || 5000);
 app.use(express.cookieParser('keyboard cat'));
 app.use(express.session({
     secret:"test", 
