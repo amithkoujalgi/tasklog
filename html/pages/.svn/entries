@@ -1,83 +1,0 @@
-10
-
-dir
-14
-https://riouxsvn.com/svn/tasklog/trunk/html/pages
-https://riouxsvn.com/svn/tasklog
-
-
-
-2012-09-30T12:03:22.801277Z
-14
-amith_koujalgi
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-9bd8c722-a3da-4f44-aed0-ef084a3f68ef
-
-activities
-dir
-
-adminLinks
-dir
-
-login
-dir
-
-myactivities
-dir
-
-personnel
-dir
-
-registration
-dir
-
-session.html
-file
-
-
-
-
-2012-10-17T16:06:56.275000Z
-2bf3b0743eee54e5203474a13ba87edf
-2012-09-30T08:02:01.400839Z
-2
-amith_koujalgi
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-981
-
-sourcing
-dir
-

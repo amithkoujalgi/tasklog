@@ -1,43 +1,0 @@
-10
-
-dir
-14
-https://riouxsvn.com/svn/tasklog/trunk/html
-https://riouxsvn.com/svn/tasklog
-
-
-
-2012-09-30T12:03:22.801277Z
-14
-amith_koujalgi
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-9bd8c722-a3da-4f44-aed0-ef084a3f68ef
-
-css
-dir
-
-fonts
-dir
-
-images
-dir
-
-js
-dir
-
-pages
-dir
-
