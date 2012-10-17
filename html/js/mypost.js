@@ -1,4 +1,4 @@
-var server_url  = 'http://tasklogger.herokuapp.com';
+var server_url  = 'http://tasklogger.herokuapp.com/';
 var ajax_url  = server_url+'get';
 function process(data,handler)
 {
