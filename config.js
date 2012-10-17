@@ -30,7 +30,7 @@ var config = {
 			var obj = new Object();
 			obj.clientDir = './html';
 			//obj.clientDir = '/home/dotcloud/current';
-			//obj.port = 8080;
+			obj.port = 8080;
 			//obj.port = 8082;
 			return obj;
 		},
