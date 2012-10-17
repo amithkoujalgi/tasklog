@@ -1,0 +1,24 @@
+var ActivityModule =
+{
+    getFullname:function(data,handler){
+        process({
+            'page':'User',
+            'method':'checkLoginStatus',
+            'data':data
+        },handler);
+    },
+    getCandidates:function(data,handler){
+        process({
+            'page':'User',
+            'method':'getCandidates',
+            'data':data
+        },handler);
+    },
+    getActivities:function(data,handler){
+        process({
+            'page':'User',
+            'method':'getActivities',
+            'data':data
+        },handler);
+    }
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TaskLog :: Register ::</title>
+</head>
+<style type="text/css">
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background: #ccc;
+}
+
+.login {
+	text-align: center;
+}
+
+.login_heading {
+	font-size: 16px;
+	color: #FEAD2D;
+	font-weight: bold;
+}
+
+.login_form {
+	width: 320px;
+	margin: 150px auto 0px;
+	background: #15568B;
+	padding: 10px 15px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 2px solid #053148;
+	color: #FFF;
+}
+
+.login td {
+	text-align: left;
+}
+
+.butten {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+	background: #5B74A8;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.inputs {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 2px solid #5B74A8;
+	padding: 5px 10px;
+	width: 211px;
+}
+
+.responseMsg {
+	font-weight: bold;
+	color: #fff;
+	text-align: left;
+}
+
+#message {
+	font-size: 11px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#username1,#password1 {
+	font-size: 11px;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+#login-panel {
+	-moz-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	background: none repeat scroll 0 0 #29447E;
+	border: 2px solid #29447E;
+	color: #888888;
+	margin: 150px auto 0;
+	padding: 10px 15px;
+	width: 320px;
+}
+
+#registration {
+	font-size: 12pt;
+	font-weight: bold;
+	color: black;
+}
+</style>
+<script type="text/javascript" src="/js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="/js/eventEmitter.js" /></script>
+<script type="text/javascript" src="/js/mypost.js"></script>
+<script type="text/javascript" src="/pages/login/service.js"></script>
+<script type="text/javascript" src="/pages/login/backing.js"></script>
+<script type="text/javascript" src="/pages/login/action.js"></script>
+
+</head>
+<body>
+	<center>
+		<img src="../../images/logo1.gif" width=20% height=20% /><br />
+	</center>
+	<table width="90%" align="center">
+
+		<tr>
+			<td align="center">
+				<div id="login-panel">
+					<div id="contents"
+						style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 16px; top: 200%">
+						Track your tasks hassle-free.<br />
+						<br />
+						<br />
+					</div>
+
+					<div style="font-size: 14px; color: #ffffff;">Registration is simple!</div>
+					<form name="form1rzt">
+						<table class="login" border="0" cellpadding="5" cellspacing="0"
+							align="center">
+
+
+							<tr>
+								<td>Username</td>
+								<td><input type="text" name="username" id="username"
+									value="" class="inputs" />
+									<div id="usernameMsg"></div></td>
+							</tr>
+
+							<tr>
+								<td>Password</td>
+								<td><input type="password" name="password" id="password"
+									value="" class="inputs" />
+									<div id="passwordMsg"></div></td>
+							</tr>
+
+							<tr>
+								<td>Confirm Password</td>
+								<td><input type="password" name="confirmpassword" id="confirmpassword"
+									value="" class="inputs" />
+									<div id="confirmpasswordMsg"></div></td>
+							</tr>
+
+							<tr>
+								<td></td>
+								<td style="text-align: right; padding-right: 10px"><input
+									type="submit" name="RegisterSubmit" id="RegisterSubmit"
+									value="Register" class="butten" /></td>
+							</tr>
+
+							<tr>
+								<td colspan="2" align="center" style="text-align: center">
+									<div id="responseMsg"></div>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div id="registration">
+					<table>
+						<tr>
+							Already have an account?&nbsp;&nbsp;
+							<a href="/pages/registration/page.html" target="_blank"></a>
+						</tr>
+					</table>
+					<input type="submit" name="register" id="register"
+						value="Sign In Now!" class="butten" text-align:
+						center; style="background: #69A74E;" />
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>

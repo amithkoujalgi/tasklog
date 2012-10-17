@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Time Tracker :: View Activities ::</title>
+
+
+            <link href="/css/sourcing_global.css" type="text/css" rel="stylesheet" />
+            <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+            <script type="text/javascript" src="/js/jquery.min.js"></script>
+            <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+            <script type="text/javascript" src="/js/eventEmitter.js" /></script>
+            <script type="text/javascript" src="/js/mypost.js"></script>
+            <script type="text/javascript" src="/js/underscore-min.js"></script>
+            <script type="text/javascript" src="/js/form.js"></script>
+            <script type="text/javascript" src="/js/custom.js"></script>
+            <script type="text/javascript" src="/js/common.js"></script>
+            <script type="text/javascript" src="./service.js"></script>
+            <script type="text/javascript" src="./view.js"></script>
+            <script type="text/javascript" src="./backing.js"></script>
+            <script type="text/javascript" src="./action.js"></script>
+
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="hdr-wrap">
+
+                <!-- Header Section Begins -->
+
+                <div id="hdr">
+
+                    <div id="logo" style="width: 110px">
+                         <a href="javascript:void(0)"></a>
+                    </div>
+
+                    <div id="nav">
+
+                        <ul>
+
+                            <li><a href="javascript:void(0);">Dashboard</a></li>
+                            <li><a href="javascript:void(0);" class="active">My Activities</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div id="top-link">
+
+                        <ul>
+
+                            <li><span class="user-name" id="logedin-user-name"></span></li>
+                            <li><span class="user-name">|</span></li>
+                            <li><a href="javascript:void(0);" class="active" id="logout">Logout</a></li>
+
+                        </ul>
+
+                    </div>
+
+
+                </div>
+
+                <!-- Header Section Ends -->
+
+
+            </div>
+
+            <div id="contnt-wrap">
+
+
+
+
+                <!-- Content Section Begins -->
+
+                <div id="contnt">
+
+
+                    <div id="job-details">
+                        <div class="desc desc-top">
+
+
+
+                        </div>
+
+                        <div class="tr-desc desc toggle-contnt">
+
+                            <div class="clearall"></div>
+
+                            <div class="clearall"></div>					
+                        </div>
+
+                        <!---content section ends--->	
+                        <div class="searchcontent">
+                            <div class="none searchbody">
+
+                                <div class="leftalignsearch">
+                                    <div class="leftalign source-icon ">
+
+                                        <ul id="jobPortalsSourceIcons">
+
+
+                                        </ul> 
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-contnt-wrap">
+
+                            <div class="leftalign">
+
+                                <!--                                <ul>
+                                                                    <li class="active"><a href="javascript:void(0);" class="resultTab">Search Result</a></li>
+                                                                    <li><strong class="orangetext" id="statusMsgTab"></strong></li>
+                                                                </ul>-->
+                            </div>
+
+
+
+                            <div class="rightalign rightalignsource">
+                                <select class="styled" name="7" id='sortDropdown'>
+                                    <option value='default'>Sort</option>
+                                    <option value='date'>By Date</option>
+				    <option value='timeTaken'>By Time Taken</option>
+                                </select>
+
+				<selece id="sortOrderChange" height="100px" style="cursor: pointer">
+					<img id="ascarrow" src="/images/arrow.png" alt="Asc" />
+					<img id="descarrow" src="/images/arrow-1.png" alt="Desc" />
+				</selece>
+                            </div>
+
+                        </div>
+
+
+                        <div id='resultDiv' class="list-contnt">
+                            <div class="table-1">
+                                <table cellspacing="0" cellpadding="3" border="0" width="100%" class="tab-1">
+                                    <tbody style="background: none repeat scroll 0 0 black; color: white; border: 10px solid #D4D4D4; text-align: center;">
+                                        <tr>
+                                            <th class="names-header">#</th>
+                                            <th class="names-header">Activity</th>
+                                            <th class="names-header">Description</th>
+                                            <th class="names-header">Start Time</th>
+                                            <th class="names-header">End Time</th>
+                                            <th class="names-header">Total Time Taken</th>
+                                        </tr>
+                                    </tbody><tbody id="activityList">
+                                        <!-- to be populated dynamically -->
+                                    </tbody>
+                                </table></div>
+
+                        </div> 
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <!-- Content Section Ends -->
+
+            </div>
+
+
+            <!-- Footer Section Begins -->
+
+            <div id="footr-wrap">
+
+                <div class="footr">&copy; Tasklog 2012</div>
+
+            </div>
+
+            <!-- Footer Section Ends -->
+        </div>
+
+    </body>
+</html>
