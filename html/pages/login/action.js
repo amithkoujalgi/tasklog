@@ -1,6 +1,6 @@
 // JavaScript Document
 $(document).ready(function(){
-	$("#register").click(function(){
+	$("#registerBtn").click(function(){
 		window.location.href = "/pages/registration/page.html";
 	});
 	
